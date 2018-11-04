@@ -1,0 +1,1062 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "微软",
+        "intent": "company_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "MSFT",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "我想要微软的信息",
+        "intent": "company_choose",
+        "entities": [
+          {
+            "start":3,
+            "end": 5,
+            "value": "MSFT",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "成交量",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "volume",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "我想知道成交量",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "volume",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "市值",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "market_cap",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "我想知道市值",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "market_cap",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "最高股价",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "high",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "我想知道最高股价",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "high",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "当前股价",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "last_trade_price",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "我想知道当前股价",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "last_trade_price",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "微软的当前股价",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "MSFT",
+            "entity": "company"
+          },
+          {
+            "start": 3,
+            "end": 7,
+            "value": "last_trade_price",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "微软当前股价",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "MSFT",
+            "entity": "company"
+          },
+          {
+            "start": 2,
+            "end": 6,
+            "value": "last_trade_price",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "微软的最高股价",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "MSFT",
+            "entity": "company"
+          },
+          {
+            "start": 3,
+            "end": 7,
+            "value": "high",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "微软最高股价",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "MSFT",
+            "entity": "company"
+          },
+          {
+            "start": 2,
+            "end": 6,
+            "value": "high",
+            "entity": "detail"
+          }
+        ]
+      },	  
+      {
+        "text": "微软的成交量",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "MSFT",
+            "entity": "company"
+          },
+          {
+            "start": 3,
+            "end": 6,
+            "value": "volume",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "微软成交量",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "MSFT",
+            "entity": "company"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "volume",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "微软的市值",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "MSFT",
+            "entity": "company"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "market_cap",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "微软市值",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "MSFT",
+            "entity": "company"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "market_cap",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "苹果",
+        "intent": "company_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "AAPL",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "我想要苹果的信息",
+        "intent": "company_choose",
+        "entities": [
+          {
+            "start":3,
+            "end": 5,
+            "value": "AAPL",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "成交量",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "volume",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "我想知道成交量",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "volume",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "市值",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "market_cap",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "我想知道市值",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "market_cap",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "最高股价",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "high",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "我想知道最高股价",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "high",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "当前股价",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "last_trade_price",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "我想知道当前股价",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "last_trade_price",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "苹果的当前股价",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "AAPL",
+            "entity": "company"
+          },
+          {
+            "start": 3,
+            "end": 7,
+            "value": "last_trade_price",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "苹果当前股价",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "AAPL",
+            "entity": "company"
+          },
+          {
+            "start": 2,
+            "end": 6,
+            "value": "last_trade_price",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "苹果的最高股价",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "AAPL",
+            "entity": "company"
+          },
+          {
+            "start": 3,
+            "end": 7,
+            "value": "high",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "苹果最高股价",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "AAPL",
+            "entity": "company"
+          },
+          {
+            "start": 2,
+            "end": 6,
+            "value": "high",
+            "entity": "detail"
+          }
+        ]
+      },	  
+      {
+        "text": "苹果的成交量",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "AAPL",
+            "entity": "company"
+          },
+          {
+            "start": 3,
+            "end": 6,
+            "value": "volume",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "苹果成交量",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "AAPL",
+            "entity": "company"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "volume",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "苹果的市值",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "AAPL",
+            "entity": "company"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "market_cap",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "苹果市值",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "AAPL",
+            "entity": "company"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "market_cap",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "脸书",
+        "intent": "company_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "FB",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "我想要脸书的信息",
+        "intent": "company_choose",
+        "entities": [
+          {
+            "start":3,
+            "end": 5,
+            "value": "FB",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "成交量",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "volume",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "我想知道成交量",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "volume",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "市值",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "market_cap",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "我想知道市值",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "market_cap",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "最高股价",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "high",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "我想知道最高股价",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "high",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "当前股价",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "last_trade_price",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "我想知道当前股价",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "last_trade_price",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "脸书的当前股价",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "FB",
+            "entity": "company"
+          },
+          {
+            "start": 3,
+            "end": 7,
+            "value": "last_trade_price",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "脸书当前股价",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "FB",
+            "entity": "company"
+          },
+          {
+            "start": 2,
+            "end": 6,
+            "value": "last_trade_price",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "脸书的最高股价",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "FB",
+            "entity": "company"
+          },
+          {
+            "start": 3,
+            "end": 7,
+            "value": "high",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "脸书最高股价",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "FB",
+            "entity": "company"
+          },
+          {
+            "start": 2,
+            "end": 6,
+            "value": "high",
+            "entity": "detail"
+          }
+        ]
+      },	  
+      {
+        "text": "脸书的成交量",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "FB",
+            "entity": "company"
+          },
+          {
+            "start": 3,
+            "end": 6,
+            "value": "volume",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "脸书成交量",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "FB",
+            "entity": "company"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "volume",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "脸书的市值",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "FB",
+            "entity": "company"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "market_cap",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "脸书市值",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "FB",
+            "entity": "company"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "market_cap",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "福特",
+        "intent": "company_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "F",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "我想要福特的信息",
+        "intent": "company_choose",
+        "entities": [
+          {
+            "start":3,
+            "end": 5,
+            "value": "F",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "成交量",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "volume",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "我想知道成交量",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "volume",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "市值",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "market_cap",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "我想知道市值",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "market_cap",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "最高股价",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "high",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "我想知道最高股价",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "high",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "当前股价",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "last_trade_price",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "我想知道当前股价",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "last_trade_price",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "福特的当前股价",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "F",
+            "entity": "company"
+          },
+          {
+            "start": 3,
+            "end": 7,
+            "value": "last_trade_price",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "福特当前股价",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "F",
+            "entity": "company"
+          },
+          {
+            "start": 2,
+            "end": 6,
+            "value": "last_trade_price",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "福特的最高股价",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "F",
+            "entity": "company"
+          },
+          {
+            "start": 3,
+            "end": 7,
+            "value": "high",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "福特最高股价",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "F",
+            "entity": "company"
+          },
+          {
+            "start": 2,
+            "end": 6,
+            "value": "high",
+            "entity": "detail"
+          }
+        ]
+      },	  
+      {
+        "text": "福特的成交量",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "F",
+            "entity": "company"
+          },
+          {
+            "start": 3,
+            "end": 6,
+            "value": "volume",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "福特成交量",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "F",
+            "entity": "company"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "volume",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "福特的市值",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "F",
+            "entity": "company"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "market_cap",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "福特市值",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "F",
+            "entity": "company"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "market_cap",
+            "entity": "detail"
+          }
+        ]
+      }
+    ]
+  }
+}

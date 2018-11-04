@@ -1,0 +1,186 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "微软",
+        "intent": "company_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "MSFT",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "我想要微软的信息",
+        "intent": "company_choose",
+        "entities": [
+          {
+            "start":3,
+            "end": 5,
+            "value": "MSFT",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "成交量",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "volume",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "我想知道成交量",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "volume",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "市值",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "market_cap",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "我想知道市值",
+        "intent": "detail_choose",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "market_cap",
+            "entity": "detail"
+          }
+        ]
+      },	  
+      {
+        "text": "微软的成交量",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "MSFT",
+            "entity": "company"
+          },
+          {
+            "start": 3,
+            "end": 6,
+            "value": "volume",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "微软成交量",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "MSFT",
+            "entity": "company"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "volume",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "微软的成交量是多少",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "MSFT",
+            "entity": "company"
+          },
+          {
+            "start": 3,
+            "end": 6,
+            "value": "volume",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "微软的市值",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "MSFT",
+            "entity": "company"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "market_cap",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "微软的市值是多少",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "MSFT",
+            "entity": "company"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "market_cap",
+            "entity": "detail"
+          }
+        ]
+      },
+      {
+        "text": "微软市值",
+        "intent": "company_detail_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "MSFT",
+            "entity": "company"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "market_cap",
+            "entity": "detail"
+          }
+        ]
+      }
+    ]
+  }
+}
